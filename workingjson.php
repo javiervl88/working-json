@@ -98,13 +98,13 @@ function saveFile($file, $datToSave){
 // Example of function calls
 
 /*
-$miJson=csvFileToJson('http://localhost/test/test.csv',';');
+$miJson=csvFileToJson('myFile.csv',';');
 print_r($miJson);
 saveFile('test.json', $miJson);
 */
 
 /*
-$miJson=xmlFileToJson('http://localhost/test/test.xml');
+$miJson=xmlFileToJson('myFile.xml');
 print_r($miJson);
 saveFile('test_xml.json', $miJson);
 */
